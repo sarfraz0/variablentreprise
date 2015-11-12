@@ -30,3 +30,6 @@
 * 0.1.0.15
 	+ added build status in footer
 	+ removed github url from config
+* 0.1.0.16
+    + renamed project tracking files
+    + added CNAME for github pages
