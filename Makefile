@@ -5,7 +5,7 @@ BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(CONFFILE)
+PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
