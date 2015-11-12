@@ -33,3 +33,5 @@
 * 0.1.0.16
     + renamed project tracking files
     + added CNAME for github pages
+* 0.1.0.17
+    + removed CNAME file and added it to gh-pages branch
