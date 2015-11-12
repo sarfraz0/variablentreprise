@@ -8,3 +8,5 @@
 	+ removed --user flag for pip
 * 0.1.0.5
 	+ modified Makefile to ressemble autogen one
+* 0.1.0.6
+	+ added one line for each build step
