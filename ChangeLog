@@ -27,3 +27,6 @@
 	+ readed publish conf, maybe it changes something
 * 0.1.0.14
 	+ maybe using relative url
+* 0.1.0.15
+	+ added build status in footer
+	+ removed github url from config
