@@ -4,3 +4,5 @@
 	+ added travis build config
 * 0.1.0.3
 	+ corriged build cofiguration
+* 0.1.0.4
+	+ removed --user flag for pip
