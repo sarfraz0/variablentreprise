@@ -1,9 +1,11 @@
 PELICAN?=pelican
 PELICANOPTS=
+
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
+PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -42,6 +44,6 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github: publish
-  ghp-import -n $(OUTPUTDIR)
-  @git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git gh-pages > /dev/null
+	ghp-import -n $(OUTPUTDIR)
+	@git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git gh-pages > /dev/null
 

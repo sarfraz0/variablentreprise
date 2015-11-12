@@ -10,3 +10,6 @@
 	+ modified Makefile to ressemble autogen one
 * 0.1.0.6
 	+ added one line for each build step
+* 0.1.0.7
+	+ added fucking missing tabs before command in makefile
+	+ added publishconf variable to makefile
