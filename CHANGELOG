@@ -35,3 +35,5 @@
     + added CNAME for github pages
 * 0.1.0.17
     + removed CNAME file and added it to gh-pages branch
+* 0.1.0.18
+    + CNAME file must be added in extra paths using pelican config
