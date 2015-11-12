@@ -5,7 +5,7 @@ BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(BASEDIR)/publishconf.py
+PUBLISHCONF=$(CONFFILE)
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -41,10 +41,8 @@ regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 #publish:
-#	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-publish:
-	$(PELICAN) $(INPUTDIR)
 
 github: publish
 	ghp-import -n $(OUTPUTDIR)
