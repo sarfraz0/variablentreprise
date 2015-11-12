@@ -6,3 +6,5 @@
 	+ corriged build cofiguration
 * 0.1.0.4
 	+ removed --user flag for pip
+* 0.1.0.5
+	+ modified Makefile to ressemble autogen one
