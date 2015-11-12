@@ -13,3 +13,5 @@
 * 0.1.0.7
 	+ added fucking missing tabs before command in makefile
 	+ added publishconf variable to makefile
+* 0.1.0.8
+	+ removed noise from the publish section in makefile
