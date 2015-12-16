@@ -37,3 +37,6 @@
     + removed CNAME file and added it to gh-pages branch
 * 0.1.0.18
     + CNAME file must be added in extra paths using pelican config
+* 0.1.0.19
+    + removed links and social in pelican conf
+    + added first post (without real content)
