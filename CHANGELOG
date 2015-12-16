@@ -42,3 +42,6 @@
     + added first post (without real content)
 * 0.1.0.20
     + added markdown dependency for pip
+* 0.1.0.21
+    + added plugins dir and config
+    + added tag_cloud plugin
