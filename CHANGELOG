@@ -45,3 +45,5 @@
 * 0.1.0.21
     + added plugins dir and config
     + added tag_cloud plugin
+* 0.1.0.22
+    + removed useless travis static build icon
