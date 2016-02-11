@@ -47,3 +47,5 @@
     + added tag_cloud plugin
 * 0.1.0.22
     + removed useless travis static build icon
+* 0.1.1.1
+    + remodeled after rouksablog
